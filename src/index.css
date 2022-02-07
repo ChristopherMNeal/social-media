@@ -1,13 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navbar-div {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 0.25em solid grey;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li:first-child {
+  margin-left: 1em;
+}
+
+nav ul li {
+  border: 0.1em grey solid;
+  padding: 0.5em 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+#navbar-div form {
+  margin-left: auto;
+  padding-right: 1em;
+  font-size: 2.5rem;
+}
+
+#navbar-div form input {
+  font-size: 1.3rem;
+  border-radius: 1em;
+  border: 0.2em rgb(114, 162, 250) solid;
+  padding: 0.5em 0.25em;
+  margin-right: 1em;
+}
+
+#navbar-div button {
+  color: rgb(90, 90, 90);
+  background-color: white;
+  border: 0.2em rgb(114, 162, 250) solid;
+  font-size: 1.3rem;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+}
+
+#container {
+  margin: 2em 4em;
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.5fr;
+  grid-template-rows: 0.3fr 1fr;
+  grid-template-areas:
+    "userSection newsFeed suggestedFriends"
+    "about newsFeed suggestedFriends";
+  column-gap: 2em;
+  /* row-gap: 0.125em; */
+}
+
+#about-div {
+  grid-area: about;
+  padding: 15px;
+  border: 2px solid rgb(181, 181, 181);
+  margin-top: 20px;
+}
+
+#newsFeed-div {
+  grid-area: newsFeed;
+  padding: 15px;
+  border: 2px solid rgb(181, 181, 181);
+}
+
+#suggestedFriends-div {
+  grid-area: suggestedFriends;
+  padding: 15px;
+  border: 2px solid rgb(181, 181, 181);
+}
+
+#userSection-div {
+  grid-area: userSection;
+  padding: 15px;
+  border: 2px solid rgb(181, 181, 181);
+  height: 330px;
+}
+
+#blue-box {
+  background-color: rgb(57, 169, 255);
+  height: 45%;
+  /* position: absolute; */
+  width: 100%;
+}
+
+#main-pic {
+  z-index: 2;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 12px;
 }

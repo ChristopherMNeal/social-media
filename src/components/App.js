@@ -9,10 +9,12 @@ function App() {
   return (
     <React.Fragment>
       <Header />
+      <div id="container">
       <UserSection />
       <About />
       <Newsfeed />
       <SuggestedFriends />
+      </div>
     </React.Fragment>
   );
 }

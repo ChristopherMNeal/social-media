@@ -7,7 +7,8 @@ function UserSection() {
   const fololowersCount = 99;
   return (
     <div id="userSection-div">
-      <img src={ProfilePic} alt="the user" width="150" />
+      <img id="main-pic" src={ProfilePic} alt="the user" width="150" />
+      <div id="blue-box"></div>
       <h3>Bugs Bunny</h3>
       <ul>
         <li>Tweets: {tweetCount}</li>
