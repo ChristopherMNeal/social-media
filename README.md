@@ -1,3 +1,49 @@
+# _Social Media_
+
+#### _React Week 2 React Fundamentals practice project for Epicodus Bootcamp_
+
+#### Created By: **Christopher Neal, Ella Tanttu, & Christy Welch**
+
+## Technologies Used
+
+- _HTML_
+- _CSS_
+- _Bootstrap_
+- _Javascript_
+- _jQuery_
+- _webpack_
+- _npm_
+- _Jest_
+
+## Description
+
+_This project was created for Epicodus bootcamp as a practice project to show proficiency in React Fundamentals. It is a view representing a social media page._
+
+## System Requirements
+
+- React 3.2.0
+
+## Setup/Installation Requirements
+
+- Clone the GitHub repository: [https://github.com/ChristopherMNeal/social-media](https://github.com/ChristopherMNeal/social-media)
+- From the main project directory, enter `npm install` in the terminal.
+- Run `npm run start` to start the server.
+- Open browswer and enter the url http://localhost:3000/ unless otherwise prompted in the terminal.
+- Alternatively, run `npm run build` and open the index.html file in your preferred browser.
+
+## Known Bugs
+
+- _None at this time._
+
+## License
+
+_[MIT](https://opensource.org/licenses/MIT)_
+Copyright (c) _2022_ _Christopher Neal, Ella Tanttu, & Christy Welch_
+
+---
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
