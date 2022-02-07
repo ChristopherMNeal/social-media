@@ -5,13 +5,13 @@ function NavBar() {
     <nav>
       <ul>
         <li>
-          <a href="#home"></a>Home
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#notifications"></a>Notifications
+          <a href="#notifications">Notifications</a>
         </li>
         <li>
-          <a href="#Messages"></a>Messages
+          <a href="#Messages">Messages</a>
         </li>
       </ul>
     </nav>

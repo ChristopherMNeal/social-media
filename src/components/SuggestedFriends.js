@@ -1,17 +1,18 @@
 import React from "react";
-import sugestedFriend from "./suggestedFriend.js"
+import SuggestedFriend from "./SuggestedFriend.js";
+import profilePic from "./../img/profile-pic.jpeg";
 
 const people = [
   {
-    profilePic: "./../img/profile-pic.png",
+    profilePic: profilePic,
     name: "Daffy Duck"
   },
   {
-    profilePic: "./../img/profile-pic.png",
+    profilePic: profilePic,
     name: "Road Runner"
   },
   {
-    profilePic: "./../img/profile-pic.png",
+    profilePic: profilePic,
     name: "Tazmanian Devil"
   }
 ];
@@ -20,8 +21,15 @@ function SuggestedFriends() {
   return (
     <div id="suggestedFriends-div">
       <h2>Lorem Ipsum</h2>
-      <SuggestedFriend />
+      {people.map((person, index) => (
+        <SuggestedFriend 
+        profilePic={person.profilePic}
+        name={person.name}
+        key={index} />
+      ))}
     </div>
+
+
   )
 }
 
@@ -36,3 +44,5 @@ function SuggestedFriends() {
 //     )}
 //   </React.Fragment>
 // );
+
+export default SuggestedFriends;

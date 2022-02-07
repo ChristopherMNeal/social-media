@@ -24,7 +24,11 @@ function PostList() {
     <div id="postList-div">
       <hr />
       {mainPostList.map((post, index) => (
-        <Post name={post.name} postText={post.postText} />
+        <Post 
+        name={post.name} 
+        postText={post.postText} 
+        key={index}
+        />
       ))}
     </div>
   );
