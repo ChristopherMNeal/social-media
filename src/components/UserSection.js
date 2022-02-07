@@ -6,7 +6,7 @@ function UserSection() {
   const followingCount = 12;
   const fololowersCount = 99;
   return (
-    <React.Fragment>
+    <div id="userSection-div">
       <img src={ProfilePic} alt="the user" width="150" />
       <h3>Bugs Bunny</h3>
       <ul>
@@ -14,7 +14,7 @@ function UserSection() {
         <li>Following: {followingCount}</li>
         <li>Fololowers: {fololowersCount}</li>
       </ul>
-    </React.Fragment>
+    </div>
   );
 }
 

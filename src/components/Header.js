@@ -4,10 +4,10 @@ import SearchBar from "./SearchBar.js";
 
 function Header() {
   return (
-    <React.Fragment>
+    <div id="navbar-div">
       <NavBar />
       <SearchBar />
-    </React.Fragment>
+    </div>
   );
 }
 
